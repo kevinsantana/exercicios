@@ -5,5 +5,5 @@ Output : 5
 '''
 
 entrada = [5, 3, 4, 3, 4]
-resultado = map(lambda entrada: numero if entrada.count(numero) < 2)
+resultado = [numero for numero in entrada if entrada.count(numero) <= 1].pop()
 print(resultado)
