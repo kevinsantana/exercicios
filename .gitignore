@@ -457,4 +457,5 @@ MigrationBackup/
 
 .vscode
 .__pycache__
+./cursos/
 # End of https://www.gitignore.io/api/python,visualstudio
